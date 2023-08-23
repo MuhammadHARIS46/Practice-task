@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, IconButton } from "@mui/material";
+import { Box, IconButton,Button } from "@mui/material";
 import useStyles from "./stylesheet";
 import { SidebarData } from "../../Static";
 import { ReactComponent as Logo } from "../../assets/Logo.svg";
@@ -11,12 +11,12 @@ const Sidebar = () => {
       <Logo />
       <>
       {SidebarData?.map((i, index) => (
-        <Box key={index} className={classes.IconLabelWrap}>
+        <Button key={index} className={classes.IconLabelWrap}>
           <IconButton >
             <img src={i.image} alt="btn" />
           </IconButton>
           <Typography className={classes.sidebarlabel}>{i.title}</Typography>
-        </Box>
+        </Button>
       ))}
       </>
     </Box>

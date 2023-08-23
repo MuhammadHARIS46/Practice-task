@@ -23,12 +23,13 @@ export default makeStyles({
     padding: "32px 16px 16px 16px",
     flexDirection: "column",
     gap: "16px",
-    width:"240px"
+    width:"240px",
+    alignItems:"baseline"
   },
   IconLabelWrap: {
-    display: "flex",
-    alignItems: "center",
-    gap: "5px",
+    display: "flex !important",
+    alignItems: "center !important",
+    gap: "5px !important",
   },
   sidebarlabel: {
     color: "white",
