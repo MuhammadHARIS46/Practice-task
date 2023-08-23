@@ -24,7 +24,8 @@ export default makeStyles({
     flexDirection: "column",
     gap: "16px",
     width:"240px",
-    alignItems:"baseline"
+    alignItems:"baseline",
+    position:"fixed"
   },
   IconLabelWrap: {
     display: "flex !important",

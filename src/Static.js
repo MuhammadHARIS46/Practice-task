@@ -8,6 +8,8 @@ import LibraryIcon from "./assets/Library.svg";
 import WalletIcon from "./assets/Wallet.png";
 import ClockIcon from "./assets/Clock.png";
 import InvestorCount from "./assets/InvestorCount.png";
+import userSample from "./assets/userSample.png";
+import user2 from "./assets/Ellipse 94.png";
 export const SidebarData = [
   {
     image: DashboardIcon,
@@ -70,5 +72,37 @@ export const TodoListData = [
     id: 3,
     title: "Finish onboarding new employee",
     desc: "New employee in product department",
+  },
+];
+export const NewJoiners = [
+  {
+    id: 1,
+    name: "Ahmed Magdi",
+    desg: " Product Manager",
+    pic: user2,
+  },
+  {
+    id: 2,
+    name: "Sara Ali Mogbel",
+    desg: " Fund Manager",
+    pic: userSample,
+  },
+  {
+    id: 3,
+    name: "David Mc",
+    desg: " Vc anaylyst",
+    pic: userSample,
+  },
+  {
+    id: 4,
+    name: "Kamil Kanso",
+    desg: " Logistics Manager",
+    pic: user2,
+  },
+  {
+    id: 5,
+    name: "Hanaa Kurz",
+    desg: " Product Designer",
+    pic: userSample,
   },
 ];
