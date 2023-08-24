@@ -19,12 +19,12 @@ export default makeStyles({
     overflowY: "scroll",
   },
   heroRightTop: {
-    display: "flex",
-    flexDirection: "column",
-    paddingTop: "40px",
-    paddingRight: "25px",
-    paddingLeft: "25px",
-    paddingBottom: "40px",
+    display: 'flex',
+    paddingTop: '40px',
+    paddingLeft: '50px',
+    paddingRight: '50px',
+    flexDirection: 'column',
+    paddingBottom: '40px'
   },
   cardMain: {
     display: "flex",

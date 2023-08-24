@@ -31,16 +31,10 @@ const Feed = () => {
     cursor: "pointer",
     outline: "none",
   };
-  const butons = {
-    borderRadius: "24px",
-    background: " #192841",
-  };
   const btnWrap = {
     display: "flex",
     alignItems: "center",
     gap: "10px",
-    color: "white !important",
-    textTransform: "none !important",
   };
   return (
     <Box className={classes.FeedMain}>
@@ -67,12 +61,66 @@ const Feed = () => {
         </div>
       </Box>
       <Box style={btnWrap}>
-        <Button style={butons}>Posts</Button>
-        <Button style={butons}>Events</Button>
-        <Button style={butons}>News</Button>
-        <Button style={butons}>Articles</Button>
-        <Button style={butons}>Announcements</Button>
-        <Button style={butons}>Argam</Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white",
+            textTransform: "none",
+          }}
+        >
+          Posts
+        </Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white",
+            textTransform: "none",
+          }}
+        >
+          Events
+        </Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white",
+            textTransform: "none",
+          }}
+        >
+          News
+        </Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white",
+            textTransform: "none",
+          }}
+        >
+          Articles
+        </Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white",
+            textTransform: "none",
+          }}
+        >
+          Announcements
+        </Button>
+        <Button
+          style={{
+            borderRadius: "24px",
+            background: " #192841",
+            color: "white ",
+            textTransform: "none",
+          }}
+        >
+          Argam
+        </Button>
         <Button
           style={{
             borderRadius: "24px",
@@ -85,17 +133,19 @@ const Feed = () => {
           New Post
         </Button>
       </Box>
-      <Box style={{
-        display: 'flex',
-        flexDirection: 'column',
-        marginTop: '15px'
-      }}>
+      <Box
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          marginTop: "15px",
+        }}
+      >
         <Box
           style={{
             display: "flex",
             alignItems: "center",
             gap: "15px",
-            width:"100%"
+            width: "100%",
           }}
         >
           <Posts

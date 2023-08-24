@@ -1,4 +1,3 @@
-import DashboardIcon from "./assets/Dashboard.svg";
 import ProjectIcon from "./assets/project.svg";
 import UsersIcon from "./assets/users.svg";
 import CommunityIcon from "./assets/community.svg";
@@ -11,10 +10,7 @@ import InvestorCount from "./assets/InvestorCount.png";
 import userSample from "./assets/userSample.png";
 import user2 from "./assets/Ellipse 94.png";
 export const SidebarData = [
-  {
-    image: DashboardIcon,
-    title: "Dashboard",
-  },
+
   {
     image: ProjectIcon,
     title: "Project",

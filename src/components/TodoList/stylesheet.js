@@ -10,6 +10,7 @@ export default makeStyles({
     border: "1px solid var(--bg-blur-storke, rgba(255, 255, 255, 0.30))",
     background: "rgba(0, 0, 0, 0.05)",
     backdropFilter: "blur(22px)",
+    width:"369px"
   },
   mainHeading:{
     color: "#FFF",

@@ -9,24 +9,30 @@ import UserSample from "../../assets/userSample.png";
 
 const Navbar = () => {
   const classes = useStyles();
-
   return (
     <Box className={classes.navbarMain}>
-      <TextField
-      placeholder="Ask me anything"
-        InputProps={{
-          startAdornment: <StickIcon />,
-          disableUnderline: true,
-          style: {
-            borderRadius: "64px",
-            border:
-              "1px solid var(--bg-blur-storke, rgba(255, 255, 255, 0.30))",
-            background: "rgba(255, 255, 255, 0.07)",
-            backdropFilter: "blur(22px)",
-            width: "550px",
-          },
+      <Box
+        style={{
+          width: "100%",
         }}
-      />
+      >
+        <TextField
+          placeholder="Ask me anything"
+          fullWidth
+          InputProps={{
+            startAdornment: <StickIcon />,
+            disableUnderline: true,
+            style: {
+              borderRadius: "64px",
+              border:
+                "1px solid var(--bg-blur-storke, rgba(255, 255, 255, 0.30))",
+              background: "rgba(255, 255, 255, 0.07)",
+              backdropFilter: "blur(22px)",
+            },
+          }}
+        />
+      </Box>
+
       <Box className={classes.navicons}>
         <IconButton>
           <CalendarIcon />

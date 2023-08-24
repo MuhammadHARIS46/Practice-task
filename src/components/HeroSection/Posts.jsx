@@ -25,8 +25,7 @@ const Posts = ({ author, time, pic, desc, postPic }) => {
           style={{ height: "14px", width: "2px", background: "#4B5563" }}
         ></Box>
         <Typography
-          className={classes.seeAll}
-          style={{ color: "#4B5563 !important" }}
+          style={{ color: "#4B5563",fontSize:"14px",fontWeight:700 }}
         >
           {time}
         </Typography>
